@@ -1,0 +1,27 @@
+
+state={
+	id=619
+	name="STATE_619"
+	resources={
+		aluminium=2.000
+		chromium=3.000
+	}
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = ETR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = { 2015 10 }
+	}
+
+	provinces={
+		1970 2015 7790
+	}
+	manpower=195734
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

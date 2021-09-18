@@ -1,0 +1,22 @@
+state={
+	id=1398
+	name="STATE_1398"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 1703 10 }
+	}
+
+	provinces={
+		1703 4682 4828 7949
+	}
+	buildings_max_level_factor=1.000
+	manpower = 162341
+	state_category = pastoral
+}

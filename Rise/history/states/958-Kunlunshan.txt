@@ -1,0 +1,23 @@
+state={
+	id=958
+	name="STATE_958"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = ETR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = { 8042 10 }
+	}
+
+	provinces={
+		4973 5016 5042 8042 8086 8112
+	}
+	manpower=167864
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

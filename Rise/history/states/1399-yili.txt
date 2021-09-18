@@ -1,0 +1,22 @@
+state={
+	id=1399
+	name="STATE_1399"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_claim_by = ETR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		7850 7866 12526 12601
+	}
+	buildings_max_level_factor=1.000
+	manpower = 242341
+	state_category = pastoral
+}

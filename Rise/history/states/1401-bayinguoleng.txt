@@ -1,0 +1,22 @@
+
+state={
+	id=1401
+	name="STATE_1401"
+
+	history={
+		owner = SIK
+		buildings = {
+			infrastructure = 2
+		                arms_factory = 1 
+		}
+		victory_points = { 5736 5 }
+		victory_points = { 1943 5 }
+	}
+
+	provinces={
+		1698 1943 2074 4770 4947 5736 7702 7792 10315 10545 10885 10911 12864 13236
+	}
+	manpower=145764
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

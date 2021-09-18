@@ -1,0 +1,68 @@
+division_template = {
+	name = "精锐步兵师"				
+	is_locked = yes
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+   		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+  		elite_infantry = { x = 2 y = 0 }
+		elite_infantry = { x = 2 y = 1 }
+		elite_infantry = { x = 3 y = 0 }
+		elite_infantry = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "步兵师"				
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+   		infantry = { x = 1 y = 0 }
+	    infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵旅"
+is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+    }
+}
+units = {
+		division= {	
+		name = "红军旅（中国旅）"
+		location = 1774
+		division_template = "精锐步兵师"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "第一蒙古骑兵旅"
+		location = 1774
+		division_template = "骑兵旅"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "第二蒙古骑兵旅"
+		location = 1774
+		division_template = "骑兵旅"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}
