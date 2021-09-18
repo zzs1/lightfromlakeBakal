@@ -1,0 +1,2207 @@
+guiTypes = {
+	containerWindowType = {
+		name = "culture_icon_container"
+		position = {x=382 y=87}
+		size = { width=780 height=496 }
+
+		instantTextboxType = {
+			name = "culture_title_marker"
+			position = { x = -11 y = -33 }
+			textureFile = ""
+			font = "aldrich_16_outline"
+			text = "CULTURE"
+			maxWidth = 225
+			maxHeight = 30
+			format = left
+		}
+
+		iconType = {
+			name = "culture_germanic_prussian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_prussian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_sicilian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_sicilian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_slovenian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_slovenian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_northern_italian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_lombardian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_southern_italian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_neapolitan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_central_italian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_tuscan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_provencal"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_provencal
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_anatolia_greco_turkish"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_anatolia_greco_turkish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_anatolia_syrian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_anatolia_syrian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_anatolia_kurdish"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_anatolia_kurdish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_anatolia_georgian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_georgian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_anatolia_armenian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_anatolia_armenian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_anatolia_turkish"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_anatolia_turkish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_arab_iraqi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_arab_iraqi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_arab_arabian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_arabian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_arab_lebanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_arab_lebanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_arab_levantine"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_arab_levantine
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_arab_omani"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_arab_omani
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_arab_yemeni"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_arab_yemeni
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_kenyan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_kenyan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_somalian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_somalian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_ethiopian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_ethiopian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_eritrean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_eritrean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_sudanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_sudanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_egyptian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_egyptian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_libyan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_libyan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_algerian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_algerian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_tunisian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_tunisian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_berber"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_berber
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_morrocan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_morrocan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_basque"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_basque
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_catalan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_catalan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_portugese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_portuguese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_castilian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_castilian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_andalusian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_andalusian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_galician"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_galician
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_iberian_asturian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_iberian_asturian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_balkan_albanian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_albanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_balkan_greek"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_balkan_greek
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_balkan_montenegrin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_balkan_montenegrin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_balkan_croatian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_balkan_croatian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_balochi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_balochi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_sindhi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_sindhi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_punjabi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_punjabi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_gujarati"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_gujarati
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_marathi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_marathi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_kannadiga"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_kannadiga
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_malayali"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_malayali
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_tamil"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_tamil
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_telugu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_telugu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_hindu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_hindu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_odia"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_odia
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_kashmiri"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_kashmiri
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_konkani"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_konkani
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_bengali"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_bengali
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_indian_bihari"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_bihari
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_australian_australian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_australian_australian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_australian_aboriginal"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_australian_aboriginal
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_austronesian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_austronesian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_papuan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_papuan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_malay"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_malay
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		#Was causing an error, fix it with gfx
+		#iconType = {
+		#	name = "culture_chinese"
+		#	position = {x=0 y=0}
+		#	spriteType = GFX_culture_chinese
+		#	pdx_tooltip = "EOANB_CULTURE_INFO"
+		#}
+
+		iconType = {
+			name = "culture_laotian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_laotian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_thai"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_thai
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_shan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_shan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_bamar"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bamar
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_meitai"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_meitai
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_khmer"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_khmer
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_viet"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_viet
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_yankee"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_yankee
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_dixie"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_dixie
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_africanamerican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_africanamerican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_cornbelt"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_cornbelt
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_steelbelt"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_steelbelt
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+
+
+		iconType = {
+			name = "culture_american_southwestern"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_southwestern
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_rockies"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_rockies
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_pacific"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_pacific
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_hawaiian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_hawaiian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_puerto_rican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_puerto_rican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_american_falklander"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_american_falklander
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_canadian_canadian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_canadian_canadian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_canadian_quebecois"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_canadian_quebecois
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_canadian_inuit"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_canadian_inuit
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_canadian_east_canadian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_canadian_east_canadian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_anglo_caribbean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_anglo_caribbean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_franco_caribbean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_franco_caribbean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_dutch_caribbean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_dutch_caribbean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_jamaican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_jamaican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_cuban"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_cuban
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_haitian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_haitian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caribbean_dominican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caribbean_dominican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_centroamerican_belizean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_centroamerican_belizean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_centroamerican_guatemalan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_centroamerican_guatemalan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_centroamerican_nicaraguan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nicaraguan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_centroamerican_costa_rican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_centroamerican_costa_rican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+
+		iconType = {
+			name = "culture_south_american_colombian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_colombian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_venezuelan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_venezuelan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_ecuadorian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_ecuadorian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_peruvian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_peruvian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_indigenous_peruvian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_indigenous_peruvian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_chilean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_chilean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_patagonian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_patagonian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_argentinian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_argentinian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_uruguayan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_uruguayan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_paraguayan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_paraguayan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_bolivian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_bolivian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_brazilian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_brazilian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_american_indigenous_brazilian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_american_indigenous_brazilian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_russian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_russian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_udmurt"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_udmurt
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_tatar"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tatar
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_yakut"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_yakut
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_bashkir"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bashkir
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_altai"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_altai
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_buryats"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_buryats
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_chukchi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_chukchi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_nganasany"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nganasany
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_nentsy"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nentsy
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_eveny"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_eveny
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_tuven"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tuven
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_ostgerman"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ostgerman
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_volgagerman"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_volgagerman
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_ukrainian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ukrainian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_caucasian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_caucasian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_azerbaijani"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_azerbaijani
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_balticgerman"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_baltic_german
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_estonian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_estonian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_latvian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_latvian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_belarusian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_belarusian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_finnish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_finnish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_karelian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_karelian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_romanian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_romanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_serbian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_serbian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_bulgarian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bulgarian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_macedonian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_macedonian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_hungarian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hungarian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_polish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_polish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_uzbeki"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_uzbek
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_kazakh"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kazakh
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_turkic"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_turkic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_kyrgyz"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kyrgyz
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_tajik"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tajik
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_pashtun"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_pashtun
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_hazara"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hazara
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_bosniak"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bosniak
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_karakalpak"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_karakalpak
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_persian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_persian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_rusyn"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_rusyn
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_nordengerman"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordengerman
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_cossack"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_cossack
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_moldovan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_moldovian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_french_french"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_french_french
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_french_breton"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_french_breton
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_french_occitan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_french_occitan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_british_southern_english"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_british_southern_english
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_british_northern_english"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_british_northern_english
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_british_welsh"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_british_welsh
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_british_lowlander"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_british_lowlander
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_british_highlander"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_british_highlander
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_british_irish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_british_irish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_dutch"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_dutch
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_burgundian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_burgundian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_rhenish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_rhenish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_bavarian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_bavarian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_austrian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_austrian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_schleswigian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_schleswigian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_hanoverian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_hanoverian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_central_german"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_central_german
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_sudeten"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_sudeten
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_eastern_german"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_eastern_german
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_luxembourgish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_luxembourgish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_germanic_swiss"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_germanic_swiss
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_french_swiss"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_french_swiss
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_italian_swiss"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_italian_swiss
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_zhujin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_zhujin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_mongolian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mongolian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_malay_chinese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_malay_chinese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_korean"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_korean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_ainu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ainu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_japanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_japanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_north_han"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_north_han
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_south_han"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_han
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_filipino"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_filipino
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_dongbei"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_dongbei
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_Formosan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_Formosan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_new_zealander"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_new_zealander
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_tibetan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tibetan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nordic_swedish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordic_swedish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nordic_danish"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordic_danish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nordic_norwegian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordic_norwegian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nordic_icelandic"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordic_icelandic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nordic_faroese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordic_faroese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nordic_sami"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nordic_sami
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_czech"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_czech
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_slovak"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_slovak
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_sardinian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sardinian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_corsican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_corsican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_wu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_wu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_min"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_min
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_hakka"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hakka
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_cantonese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_cantonese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_gan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_xiang"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_xiang
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sichuanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sichuanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_hui"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hui
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_uyghur"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_uyghur
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_jin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_jin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_hebei"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hebei
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ambon_timor"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ambon_timor
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_bima_sumba"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bima_sumba
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_acehnese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_acehnese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_minangkabau"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_minangkabau
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_javanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_javanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_bhutanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bhutanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nepalese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nepalese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_dayak"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_dayak
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sinhalese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sinhalese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_haratin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_haratin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sahrawi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sahrawi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_mestico"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mestico
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_fang"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_fang
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_tubu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tubu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_fur"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_fur
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_zande"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_zande
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_south_sudanese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_south_sudanese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_swahili"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_swahili
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kalenjin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kalenjin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_oromo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_oromo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_afar"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_afar
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_highland_cushitic"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_highland_cushitic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kanembu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kanembu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_liberian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_liberian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kru"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kru
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_soninke"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_soninke
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_wolof"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_wolof
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_akan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_akan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_malinke"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_malinke
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_bambara"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bambara
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_fulani"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_fulani
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_mende"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mende
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_susu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_susu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_dyula"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_dyula
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_mossi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mossi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gbe"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_gbe
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_songhay"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_songhay
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_hausa"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hausa
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kanuri"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kanuri
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_yoruba"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_yoruba
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_biafran"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_biafran
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_duala"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_duala
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gbaya"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_gbaya
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sara"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sara
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_chadian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_chadian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_banda"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_banda
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_congolese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_congolese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_luba"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_luba
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_tabwa"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tabwa
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kinyarwanda"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kinyarwanda
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kirundi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kirundi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kikumu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kikumu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_mongo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mongo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_maasai"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_maasai
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_bemba"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_bemba
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_lunda"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_lunda
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_lozi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_lozi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_lithuanian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_lithuanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_zambezi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_zambezi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sukuma"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sukuma
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nyamwezi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nyamwezi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_makonde"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_makonde
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gogo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_gogo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_chewa"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_chewa
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_lango_acoli"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_lango_acoli
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_baganda"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_baganda
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_makua"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_makua
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sena"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sena
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_tsonga"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tsonga
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_shona"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_shona
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ndebele"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ndebele
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ambundu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ambundu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ovimbundu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ovimbundu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_chokwe"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_chokwe
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_nama"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_nama
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_herero"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_herero
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ovambo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ovambo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_malagasy"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_malagasy
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_boer"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_boer
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_cape"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_cape
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_zulu"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_zulu
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sotho"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sotho
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_tswana"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tswana
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_swazi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_swazi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_xhosa"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_xhosa
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_riffian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_riffian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_israeli"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_israeli
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_african_creole"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_african_creole
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sulawesi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_sulawesi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_north_moluccan"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_north_moluccan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_xibei"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_xibei
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_jiaoliao"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_jiaoliao
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+
+		iconType = {
+			name = "culture_mexican"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mexican
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_tani"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_tani
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_centroamerican_salvadorian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_salvadorian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_centroamerican_panamanian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_panamanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_centroamerican_honduran"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_honduran
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_indian_maldivian"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_maldivian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gulf_arab"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_gulf_arab
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_hijazi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_hijazi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_najdi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_najdi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_chin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_chin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kachin"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kachin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_karen"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_karen
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_mon"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_mon
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_rakhine"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_rakhine
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ulster"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_ulster
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kalmyk"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kalmyk
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_indian_bodo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_bodo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_indian_assamese"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_assamese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_indian_naga"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_naga
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_indian_mizo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_indian_mizo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kongo"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_kongo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_komi"
+			position = {x=0 y=0}
+			spriteType = GFX_culture_komi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_alsatian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_alsatian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_alemannic"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_alemannic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_westphalian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_westphalian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_franconian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_franconian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_swabian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_swabian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_carniolan"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_carniolan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_thuringian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_thuringian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_saxon"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_saxon
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_vistula_german"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_vistula_german
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_mecklenburgian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_mecklenburgian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_hessian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_hessian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_pommeranian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_pommeranian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_germanian"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_culture_germanic_germanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+	}
+}

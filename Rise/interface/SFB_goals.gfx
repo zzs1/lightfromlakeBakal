@@ -1,0 +1,241 @@
+spriteTypes = {
+
+	
+	spriteType = {
+		name = "GFX_backing_home"
+		textureFile = "gfx/interface/SFB_goals/backing_home.png"
+	}
+	spriteType = {
+		name = "GFX_for_the_homeland"
+		textureFile = "gfx/interface/SFB_goals/for_the_homeland.png"
+	}
+	spriteType = {
+		name = "GFX_marching_to_Urumqi"
+		textureFile = "gfx/interface/SFB_goals/marching_to_Urumqi.png"
+	}
+	spriteType = {
+		name = "GFX_for_the_liberation"
+		textureFile = "gfx/interface/SFB_goals/for_the_liberation.png"
+	}
+	spriteType = {
+		name = "GFX_let_them_pay_off"
+		textureFile = "gfx/interface/SFB_goals/let_them_pay_off.png"
+	}
+	spriteType = {
+		name = "GFX_people_army_for_the_people"
+		textureFile = "gfx/interface/SFB_goals/people_army_for_the_people.png"
+	}
+	spriteType = {
+		name = "GFX_propoganda"
+		textureFile = "gfx/interface/SFB_goals/propoganda.png"
+	}
+	spriteType = {
+		name = "GFX_spirit_of_yanan"
+		textureFile = "gfx/interface/SFB_goals/spirit_of_yanan.png"
+	}
+	spriteType = {
+		name = "GFX_host_the_commuist_meeting_in_xinjiang"
+		textureFile = "gfx/interface/SFB_goals/host_the_commuist_meeting_in_xinjiang.png"
+	}
+	spriteType = {
+		name = "GFX_agrarian_revolution_1"
+		textureFile = "gfx/interface/SFB_goals/agrarian_revolution_1.png"
+	}
+	spriteType = {
+		name = "GFX_agrarian_revolution_2"
+		textureFile = "gfx/interface/SFB_goals/agrarian_revolution_2.png"
+	}
+	spriteType = {
+		name = "GFX_Xinjiang_congress"
+		textureFile = "gfx/interface/SFB_goals/Xinjiang_congress.png"
+	}
+	spriteType = {
+		name = "GFX_economic_issue"
+		textureFile = "gfx/interface/SFB_goals/economic_issue.png"
+	}
+	spriteType = {
+		name = "GFX_strength_of_wemen"
+		textureFile = "gfx/interface/SFB_goals/Xinjiang_congress.png"
+	}
+	spriteType = {
+		name = "GFX_wipe_out_illiteracy"
+		textureFile = "gfx/interface/SFB_goals/wipe_out_illiteracy.png"
+	}
+	spriteType = {
+		name = "GFX_Our_troop_works_towards_the_sun"
+		textureFile = "gfx/interface/SFB_goals/Our_troop_works_towards_the_sun.png"
+	}
+	spriteType = {
+		name = "GFX_abrogate_rights"
+		textureFile = "gfx/interface/SFB_goals/abrogate_rights.png"
+	}
+	spriteType = {
+		name = "GFX_abrogate_Severe_punishment"
+		textureFile = "gfx/interface/SFB_goals/abrogate_Severe_punishment.png"
+	}
+	spriteType = {
+		name = "GFX_abrogate_slavary"
+		textureFile = "gfx/interface/SFB_goals/abrogate_slavary.png"
+	}
+	spriteType = {
+		name = "GFX_against_warterlords"
+		textureFile = "gfx/interface/SFB_goals/against_warterlords.png"
+	}
+	spriteType = {
+		name = "GFX_cut_raligional_taxisation"
+		textureFile = "gfx/interface/SFB_goals/cut_raligional_taxisation.png"
+	}	
+	spriteType = {
+		name = "GFX_gain_support_from_people"
+		textureFile = "gfx/interface/SFB_goals/gain_support_from_people.png"
+	}	
+	spriteType = {
+		name = "GFX_Gobi_turn_to_field"
+		textureFile = "gfx/interface/SFB_goals/Gobi_turn_to_field.png"
+	}	
+	spriteType = {
+		name = "GFX_hard_to_act"
+		textureFile = "gfx/interface/SFB_goals/hard_to_act.png"
+	}	
+	spriteType = {
+		name = "GFX_line_of_the_mass"
+		textureFile = "gfx/interface/SFB_goals/line_of_the_mass.png"
+	}	
+	spriteType = {
+		name = "GFX_land_revolution"
+		textureFile = "gfx/interface/SFB_goals/land_revolution.png"
+	}	
+	spriteType = {
+		name = "GFX_mode_of_minzu_darin"
+		textureFile = "gfx/interface/SFB_goals/mode_of_minzu_darin.png"
+	}	
+	spriteType = {
+		name = "GFX_mosque_reform"
+		textureFile = "gfx/interface/SFB_goals/mosque_reform.png"
+	}	
+	spriteType = {
+		name = "GFX_public_field"
+		textureFile = "gfx/interface/SFB_goals/public_field.png"
+	}	
+	spriteType = {
+		name = "GFX_public_water_system"
+		textureFile = "gfx/interface/SFB_goals/public_water_system.png"
+	}	
+	spriteType = {
+		name = "GFX_rebuilding"
+		textureFile = "gfx/interface/SFB_goals/rebuilding.png"
+	}	
+	spriteType = {
+		name = "GFX_redistribute_the_means_of_production"
+		textureFile = "gfx/interface/SFB_goals/redistribute_the_means_of_production.png"
+	}	
+	spriteType = {
+		name = "GFX_reduction_of_bureaucrat"
+		textureFile = "gfx/interface/SFB_goals/reduction_of_bureaucrat.png"
+	}	
+	spriteType = {
+		name = "GFX_To_the_countryside"
+		textureFile = "gfx/interface/SFB_goals/To_the_countryside.png"
+	}
+	spriteType = {
+		name = "GFX_reduce_tax_oppose_landlords"
+		textureFile = "gfx/interface/SFB_goals/reduce_tax_oppose_landlords.png"
+	}
+	spriteType = {
+		name = "GFX_guerrillas_back_home"
+		textureFile = "gfx/interface/SFB_goals/guerrillas_back_home.png"
+	}
+	spriteType = {
+		name = "GFX_knock_down_the_paper_tiger"
+		textureFile = "gfx/interface/SFB_goals/knock_down_the_paper_tiger.png"	
+	}
+	spriteType = {
+		name = "GFX_weapons_workshop"
+		textureFile = "gfx/interface/SFB_goals/weapons_workshop.png"
+	}
+	spriteType = {
+		name = "GFX_review_red_army"
+		textureFile = "gfx/interface/SFB_goals/review_red_army.png"
+	}
+	spriteType = {
+		name = "GFX_praise_the_sharpshooter"
+		textureFile = "gfx/interface/SFB_goals/praise_the_sharpshooter.png"
+	}
+	spriteType = {
+		name = "GFX_infiltrate_HSM"
+		textureFile = "gfx/interface/SFB_goals/infiltrate_HSM.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yananmoshi"
+		textureFile = "gfx/interface/ideas/yananmoshi.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_tugai"
+		textureFile = "gfx/interface/ideas/tugai.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_wandering"
+		textureFile = "gfx/interface/ideas/wandering.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_low_support"
+		textureFile = "gfx/interface/ideas/lowsupport.dds"
+	}	
+	spriteType = {
+		name = "GFX_zhengedaidan"
+		textureFile = "gfx/interface/SFB_goals/zhengedaidan.png"
+	}	
+	spriteType = {
+		name = "GFX_gonggusuqu"
+		textureFile = "gfx/interface/SFB_goals/gonggusuqu.png"
+	}	
+	spriteType = {
+		name = "GFX_tongyizhanxian1"
+		textureFile = "gfx/interface/SFB_goals/tongyizhanxian1.png"
+	}	
+	spriteType = {
+		name = "GFX_duimahezuo"
+		textureFile = "gfx/interface/SFB_goals/duimahezuo.png"
+	}	
+	spriteType = {
+		name = "GFX_yizhongjigua"
+		textureFile = "gfx/interface/SFB_goals/yizhongjigua.png"
+	}	
+	spriteType = {
+		name = "GFX_Socialism_alley"
+		textureFile = "gfx/interface/SFB_goals/Socialism_alley.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_jiaofei"
+		textureFile = "gfx/interface/ideas/jiaofei.bbs"
+	}	
+	spriteType = {
+		name = "GFX_idea_wheat"
+		textureFile = "gfx/interface/ideas/wheat.bbs"
+	}	
+	spriteType = {
+		name = "GFX_idea_power"
+		textureFile = "gfx/interface/ideas/power.bbs"
+	}	
+	spriteType = {
+		name = "GFX_idea_qibing"
+		textureFile = "gfx/interface/ideas/qibing.bbs"
+	}	
+	spriteType = {
+		name = "GFX_common_goal"
+		textureFile = "gfx/interface/SFB_goals/common_goal.png"
+	}	
+	spriteType = {
+		name = "GFX_moving_attack"
+		textureFile = "gfx/interface/SFB_goals/moving_attack.png"
+	}	
+	spriteType = {
+		name = "GFX_worker_training"
+		textureFile = "gfx/interface/SFB_goals/worker_training.bbs"
+	}	
+	spriteType = {
+		name = "GFX_night_school"
+		textureFile = "gfx/interface/SFB_goals/night_school.bbs"
+	}	
+}
+
