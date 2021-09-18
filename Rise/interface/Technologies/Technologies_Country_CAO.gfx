@@ -1,0 +1,46 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_CAO_infantry_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/CAO_infantry_58.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CAO_motorized_infantry_medium"
+		texturefile = "gfx/interface/technologies/FFR_motorized_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAO_motorized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/CAO_motorized_62.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAO_motorized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/CAO_motorized_74.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CAO_motorized_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/FFR_motorized_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAO_motorized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/CAO_motorized_62.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAO_motorized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/CAO_motorized_74.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CAO_IFV_1970_medium"
+		texturefile = "gfx/interface/technologies/CAO_IFV_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CAO_CAS_1950_medium"
+		texturefile = "gfx/interface/technologies/MEX_CAS_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAO_CAS_1960_medium"
+		texturefile = "gfx/interface/technologies/CAO_CAS_60.dds"
+	}
+}

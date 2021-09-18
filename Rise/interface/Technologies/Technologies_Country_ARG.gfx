@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_ARG_fighter_1950_medium"
+		texturefile = "gfx/interface/technologies/ARG_fighter_50.dds"
+	}
+}
