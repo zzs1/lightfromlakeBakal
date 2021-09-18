@@ -1,0 +1,66 @@
+add_namespace = XSM
+country_event = { 
+	id = XSM.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = XSM.1.t
+	desc = XSM.1.desc
+	picture = GFX_report_event_russia_war_planning
+	trigger = {
+	    tag = XSM
+		controls_state = 283
+		controls_state = 1302
+		controls_state = 764
+		not = { has_country_flag = XSM_dasheng }
+	}
+	fire_only_once = yes
+	
+	option = { #
+		name = XSM.1.a
+		ai_chance = { factor = 1 }
+		set_country_flag = XSM_dasheng
+		annex_country = { target = HUI }
+		load_focus_tree = { tree = XSM_sheng keep_completed = no }
+	}
+}
+country_event = { 
+	id = XSM.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = XSM.2.t
+	desc = XSM.2.desc
+	picture = GFX_report_event_russia_war_planning
+	trigger = {
+	    tag = COX
+		surrender_progress > 0.3
+		not = { has_country_flag = XSM_dabai }
+	}
+	fire_only_once = yes
+	
+	option = { #
+		name = XSM.2.a
+		ai_chance = { factor = 1 }
+		XSM = {
+			white_peace = HUI
+		}
+		load_focus_tree = { tree = XSM_bai keep_completed = no }
+		set_country_flag = XSM_dabai
+	}
+}
+country_event = { 
+	id = XSM.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = XSM.2.t
+	desc = XSM.2.desc
+	picture = GFX_report_event_russia_war_planning
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = XSM.3.a
+		add_namespace = -5000
+		ai_chance = { factor = 1 }
+		COX = { 
+			country_event = { id = COX.21 days = 1 } 
+			}
+         }	
+	}

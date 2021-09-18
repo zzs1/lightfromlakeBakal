@@ -1,0 +1,104 @@
+add_namespace = BRY
+country_event = {
+	id = BRY.5556
+	title = BRY.5556.t
+	desc = BRY.5556.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = BRY
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = BRY.5556.a
+		custom_effect_tooltip = china.5556_PRC_reinforcements_2
+		hidden_effect = {
+			if = {
+				limit = { 
+					 has_war_with = IRK 
+				}
+				load_oob = "hongjun_1962"
+			}
+			    add_war_support = 0.2
+				add_ideas = BRY_China_juntuan_help
+				add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 1000 producer = IRK } 
+		}
+	}
+}
+country_event = {
+	id = BRY.5557
+	title = BRY.5557.t
+	desc = BRY.5557.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = BRY
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = BRY.5557.a
+		country_event = { id = BRY.5559 days = 1 }
+		add_offsite_building = {
+				type = industrial_complex
+				level = 2
+			}
+			add_ideas = RUS_siberia_plan_startscreen
+			diplomatic_relation = {
+				country = KHA
+				relation= non_aggression_pact
+				active = yes
+			}
+		    KHA = { 
+			country_event = { id = BRY.5559 days = 1 } 
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+         }	
+    }
+}	
+country_event = {
+	id = BRY.5558
+	title = BRY.5558.t
+	desc = BRY.5558.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = BRY
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = BRY.5558.a
+		    add_war_support = 0.2
+			SVO = { change_tag_from = ROOT } #前面是想要去的国家，root指当前这个国家
+			remove_ideas = BRY_China_juntuan_help 
+			SVO = { country_event = { id = SVO.2000 days = 3 } }
+	   }
+}
+country_event = {
+	id = BRY.5559
+	title = BRY.5559.t
+	desc = BRY.5559.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = BRY
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = BRY.5559.a
+			add_ideas = SFB_left_union
+			hidden_effect = {
+			country_event = { id = BRY.5558 days = 7 random = 48 }
+		}
+			
+	}
+ }

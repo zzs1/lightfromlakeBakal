@@ -1,0 +1,696 @@
+add_namespace = COX
+
+country_event = {
+	id = Touhou.1
+	title = Touhou.t
+	desc = Touhou.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = Touhou.a
+			add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 50000000 producer = BRY }
+			add_war_support = 1
+			add_stability = 1
+			remove_ideas = "wandering"  
+			remove_ideas = "low_support"
+			add_core_of = all
+			add_manpower = 10000000
+add_offsite_building = { 
+	 type = industrial_complex level = 2000 
+}
+			 
+		}
+	}
+
+country_event = {
+	id = COX.1
+	title = COX.1.t
+	desc = COX.1.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = COX.1.a
+		     load_oob = "hongjun3_1962"
+			 add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 1000 producer = BRY }
+             add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 200 producer = SOV } 			 
+		}
+	}
+	country_event = {
+	id = COX.2
+	title = COX.2.t
+	desc = COX.2.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = COX.2.a
+			add_stability = 0.05
+				 
+	}
+}
+country_event = {
+	id = COX.3
+	title = COX.3.t
+	desc = COX.3.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = COX.3.a
+		     add_ideas = tno_conscription_one_year_draft
+			add_stability = 0.05
+			load_focus_tree = { tree = COX_build1 keep_completed = no }			 
+	}
+}
+country_event = {
+	id = COX.4
+	title = COX.4.t
+	desc = COX.4.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = COX.4.a
+			add_ideas =	PRC_liu_shaoqi
+			add_ideas = PRC_Deng_Xiaoping
+			add_ideas = PRC_Zhou_Eenlai
+			add_ideas = PRC_Kang_Sheng			 
+	}
+}
+country_event = {
+	id = COX.5
+	title = COX.5.t
+	desc = COX.5.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+		name = COX.5.a
+			load_focus_tree = { tree = COX_build2 keep_completed = no }		 
+	}
+}
+country_event = {
+	id = COX.6 #官僚事件1
+	title = COX.6.t
+	desc = COX.6.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    check_variable = { guanliao_power > 10  } 
+		check_variable = { guanliao_power < 25  } 
+		not = { has_country_flag = guanliao_1 }
+	}
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	immediate = {
+	set_country_flag = guanliao_1
+	}
+	option = {
+		name = COX.6.a
+			swap_ideas = {
+				remove_idea = China_guanliao_1
+				add_idea = China_guanliao_2
+			}		 
+	}
+}
+country_event = {
+	id = COX.7 #官僚事件2
+	title = COX.7.t
+	desc = COX.7.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    check_variable = { guanliao_power > 25 } 
+		check_variable = { guanliao_power < 40  } 
+		not = { has_country_flag = guanliao_2 }
+	}
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	immediate = {
+	set_country_flag = guanliao_2
+	}
+	option = {
+		name = COX.7.a
+			swap_ideas = {
+				remove_idea = China_guanliao_2
+				add_idea = China_guanliao_3
+			}		 
+	}
+}
+country_event = {
+	id = COX.8 #官僚事件3
+	title = COX.8.t
+	desc = COX.8.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    check_variable = {guanliao_power > 45} 
+		not = { has_country_flag = guanliao_3 }
+	}
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	immediate = {
+	set_country_flag = guanliao_3
+	}
+	option = {
+	    name = COX.8.a
+			swap_ideas = {
+				remove_idea = China_guanliao_3
+				add_idea = China_guanliao_4
+			}		 
+	}
+}
+country_event = {
+	id = COX.9 #测试官僚事件
+	title = COX.9.t
+	desc = COX.9.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.9.a
+			add_to_variable = {  guanliao_power = 10 tooltip = guanliao_up_3 }
+	}
+}
+country_event = {
+	id = COX.10 #测试地区修正事件
+	title = COX.10.t
+	desc = COX.10.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.10.a
+			add_dynamic_modifier ={ modifier = SFB_max_efficiency_factor_dynamic_modifier }
+			add_dynamic_modifier ={ modifier = SFB_efficiency_gain_factor_dynamic_modifier }
+			add_dynamic_modifier ={ modifier = SFB_industrial_capacity_dynamic_modifier }
+			add_dynamic_modifier ={ modifier = SFB_industrial_big_capacity_dynamic_modifier }
+			add_dynamic_modifier ={ modifier = SFB_global_building_dynamic_modifier }
+			add_dynamic_modifier ={ modifier = SFB_factory_start_dynamic_modifier }
+			add_dynamic_modifier ={ modifier = SFB_production_speed_dynamic_modifier }
+	}
+}
+country_event = {
+	id = COX.11 #占领乌鲁木齐触发
+	title = COX.11.t
+	desc = COX.11.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = COX
+		controls_state = 617
+		not = { has_country_flag = dihua }
+	}
+	immediate = {
+	set_country_flag = dihua
+	}
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	fire_only_once = yes
+	option = {
+	    name = COX.11.a
+		JAP = { country_event = { id = jap.114514 days = 1 }  }
+		hidden_effect = {
+		country_event = { id = COX.12 days = 60 } 
+		}
+	}
+}	
+	country_event = {
+	id = COX.12 
+	title = COX.12.t
+	desc = COX.12.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+	option = {
+	    name = COX.12.a
+		hidden_effect = {
+		country_event = { id = COX.13 days = 0 }
+		}	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.13
+	title = COX.13.t
+	desc = COX.13.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+	option = {
+	    name = COX.13.a
+		hidden_effect = {
+		country_event = { id = COX.14 days = 60 }
+		}	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.14 
+	title = COX.14.t
+	desc = COX.14.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.14.a
+		hidden_effect = {
+		country_event = { id = COX.15 days = 0 }
+		}	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.15
+	title = COX.15.t
+	desc = COX.15.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.15.a
+		hidden_effect = {
+		country_event = { id = COX.16 days = 180 }
+		}	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.16
+	title = COX.16.t
+	desc = COX.16.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.16.a
+		hidden_effect = {
+			country_event = { id = COX.17 days = 1 }
+		}	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.17
+	title = COX.17.t
+	desc = COX.17.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.17.a	
+	}
+	fire_only_once = yes
+	is_triggered_only = yes
+}
+country_event = {
+	id = COX.18 #到农村去！
+	title = COX.18.t
+	desc = COX.18.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.18.a	
+		unlock_decision_category_tooltip = hexinhua
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.19 #扫盲
+	title = COX.19.t
+	desc = COX.19.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.19.a	
+		unlock_decision_category_tooltip = tuiguangshizi
+		TNO_improve_academic_base_high = yes #快识字率
+		add_stability = -0.15
+	}
+	option = {
+	    name = COX.19.b	
+		unlock_decision_category_tooltip = tuiguangshizi
+		TNO_improve_academic_base_low = yes #慢识字率
+		add_stability = 0.05
+	}
+	option = {
+	    name = COX.19.c	
+		unlock_decision_category_tooltip = tuiguangshizi
+		TNO_improve_academic_base_med = yes #中识字率
+		add_political_power = -20
+		add_dynamic_modifier ={ modifier = SFB_research_speed_factor_modifier }
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.20 #迪化讲话！
+	title = COX.20.t
+	desc = COX.20.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.20.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.21 #马惇靖发来密信
+	title = COX.20.t
+	desc = COX.20.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.21.a	
+		declare_war_on = {
+				target = XSM
+				type = annex_everything
+			}
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.22 #报告！
+	title = COX.22.t
+	desc = COX.22.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.22.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.23 #诉苦大会！
+	title = COX.23.t
+	desc = COX.23.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.23.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.24 #包清三的日记！
+	title = COX.24.t
+	desc = COX.24.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.24.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.25 #公审！
+	title = COX.25.t
+	desc = COX.25.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.25.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.26 #水！
+	title = COX.26.t
+	desc = COX.26.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.26.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.27 #算总账！
+	title = COX.27.t
+	desc = COX.27.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.27.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.28 #战天斗地1！
+	title = COX.28.t
+	desc = COX.28.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.28.a	
+	}
+	fire_only_once = yes
+}
+
+country_event = {
+	id = COX.29 #地主贵族流亡者的反扑！
+	title = COX.29.t
+	desc = COX.29.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.29.a	
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.30 #共产党的老前辈们
+	title = COX.30.t
+	desc = COX.30.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.30.a	
+		add_ideas =	PRC_liu_shaoqi
+			add_ideas = PRC_Zhou_Eenlai
+			add_ideas = PRC_Kang_Sheng		
+			hidden_effect = {
+		country_event = { id = COX.31 days = 60 } 
+		}
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.31 #经济部长的人选
+	title = COX.31.t
+	desc = COX.31.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.31.a	
+		add_ideas = PRC_Gao_gang
+	}
+	option = {
+	    name = COX.31.b	
+		add_ideas = PRC_Deng_Xiaoping
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.32 #测试用切扩张
+	title = COX.32.t
+	desc = COX.32.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = COX.32.a	
+		load_focus_tree = { tree = COX_two_war_focus keep_completed = no }
+	}
+	fire_only_once = yes	
+}
+country_event = {
+	id = COX.33
+    title = COX.33.t
+	desc = COX.33.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 0
+	}
+	option = {
+		name = COX.33.a
+		COX = {
+			country_event = COX.34
+        }
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.34
+    title = COX.34.t
+	desc = COX.34.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 0
+	}
+	option = {
+		name = COX.34.a
+		COX = {
+			country_event = COX.35
+        }
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.35
+    title = COX.35.t
+	desc = COX.35.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 0
+	}
+	option = {
+		name = COX.35.a
+		complete_national_focus = COX_focus.64
+	}
+	option = {
+		name = COX.35.b
+		complete_national_focus = COX_focus.79
+	}
+	option = {
+		name = COX.35.c
+		complete_national_focus = COX_focus.78
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.36
+    title = COX.36.t
+	desc = COX.36.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}
+	option = {
+		name = COX.36.a
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.37
+    title = COX.37.t
+	desc = COX.37.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}
+	option = {
+		name = COX.37.a
+	}
+	fire_only_once = yes
+}
+country_event = {
+	id = COX.38
+    title = COX.38.t
+	desc = COX.38.d
+	picture = GFX_report_event_chinese_army_training
+    is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}
+	option = {
+		name = COX.38.a
+	}
+	fire_only_once = yes
+}

@@ -1,0 +1,17 @@
+add_namespace = JAP
+country_event = {
+	id = JAP.114514 #并不恶臭的事件
+	title = JAP.114514.t
+	desc = JAP.114514.d
+	picture = GFX_report_event_chinese_army_training
+    trigger = {
+	    tag = JAP
+	}
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	    days = 1
+	}	
+	option = {
+	    name = JAP.114514.a
+	}
+}

@@ -1,0 +1,85 @@
+add_namespace = SVO
+country_event = { #The Spark
+	id = SVO.2000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = SVO.2000.t
+	desc = SVO.2000.desc
+	picture = GFX_report_event_russia_war_planning
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SVO.2000.a
+		ai_chance = { factor = 1 }
+		add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 500 producer = BRY } 
+		load_oob = "hongjun2_1962"
+		add_ideas = BRY_China_juntuan_help
+	}
+}
+country_event = { 
+	id = SVO.2001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = SVO.2001.t
+	desc = SVO.2001.desc
+	picture = GFX_report_event_russia_war_planning
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SVO.2001.a
+		COX = { change_tag_from = ROOT }
+		COX = {
+		transfer_state = 814
+		}
+		hidden_effect = {
+			country_event = { id = SVO.2003 days = 7 random = 48 }
+		}
+	}
+}
+country_event = { 
+	id = SVO.2002
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = SVO.2002.t
+	desc = SVO.2002.desc
+	picture = GFX_report_event_russia_war_planning
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SVO.2002.a
+		814= { add_core_of = cox }
+		hidden_effect = {
+			country_event = { id = SVO.2001 days = 7 random = 48 }
+		}
+	}
+}
+country_event = { 
+	id = SVO.2003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRY.1"}
+	title = SVO.2003.t
+	desc = SVO.2003.desc
+	picture = GFX_report_event_russia_war_planning
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SVO.2003.a
+		BRY = {
+		effect_tooltip = {
+			diplomatic_relation = {
+				country = COX
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		add_ideas = BRY_old_red_army_help
+		annex_country = { target = SVO transfer_troops = yes } 
+		} #前吞后，继承部队
+		SVO = {every_unit_leader = { set_nationality = BRY } }   #后继承前将领
+		329 = { add_core_of = cox }	
+	}
+}
