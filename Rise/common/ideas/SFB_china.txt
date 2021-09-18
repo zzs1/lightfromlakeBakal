@@ -1,0 +1,88 @@
+ideas = {
+head_of_government = {
+        PRC_liu_shaoqi = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PRC_liu_shaoqi"}
+			picture = "liu_shaoqi"
+			allowed = {
+				original_tag = COX
+			}
+			available = {
+            has_government = communist
+			}
+			traits = {
+				head_of_government
+				centrally_planned_economy_people
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}	
+economy_minister = {	
+		PRC_Deng_Xiaoping = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PRC_Deng_Xiaoping"}
+			picture = "PRC_deng_xiaoping"
+			allowed = {
+				original_tag = COX
+			}
+			available = {
+           has_government = communist
+			}
+			traits = {
+				economy_minister
+				socialist_economy_with_Chinese_characteristics
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+		PRC_Gao_gang = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PRC_Gao_gang"}
+			picture = "liu_shaoqi"
+			allowed = {
+				original_tag = COX
+			}
+			available = {
+                   has_government = communist
+			}
+			traits = {
+				economy_minister
+				Sabrinism_people
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}	
+foreign_minister = {	
+		PRC_Zhou_Eenlai = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PRC_Zhou_Eenlai"}
+			picture = "PRC_zhou_enlai"
+			allowed = {
+				original_tag = COX
+			}
+			available = {
+                has_government = communist
+			}
+			traits = {
+				foreign_minister
+				Widely_makes_friends
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}	
+	security_minister = {
+		PRC_Kang_Sheng = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PRC_Kang_Sheng"}
+			allowed = { original_tag = COX }
+			picture = "PRC_kang_sheng"
+			available = {
+				has_government = communist
+			}
+			traits = {
+				security_minister
+				Giant_in_shadow
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+}	

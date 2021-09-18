@@ -1,0 +1,13 @@
+SFB_BRY_category = {
+	icon = GFX_decision_category_generic_formable_nations
+	picture = GFX_decision_RAJ_decision_political_situation
+	available = {           #可用
+         NOT { has_war_with = IRK }
+		 }
+	visible = {                #决议可见的前置条件
+              NOT { has_war_with = IRK }
+          }
+	allowed = {
+			tag = BRY
+	    }
+}

@@ -1,0 +1,38 @@
+SFB_max_efficiency_factor_dynamic_modifier = {  #效率增长
+	 production_factory_max_efficiency_factor = 0.02
+	}
+SFB_efficiency_gain_factor_dynamic_modifier = { #效率保持
+	 production_factory_start_efficiency_factor = 0.02
+	}
+SFB_industrial_capacity_dynamic_modifier = { #产出
+	 industrial_capacity_factory = 0.02
+	}
+SFB_industrial_big_capacity_dynamic_modifier = { #大产出
+	 industrial_capacity_factory = 0.05
+	}
+SFB_global_building_dynamic_modifier = { #地区最大工业
+	 global_building_slots_factor = 0.02
+	 }
+SFB_factory_start_dynamic_modifier = {#基础生产率
+	 production_factory_start_efficiency_factor = 0.02
+	 }
+SFB_production_speed_dynamic_modifier = {#建造速度
+	 production_speed_buildings_factor= 0.02
+	 }
+
+SFB_research_speed_factor_modifier = { #科研速度
+      research_speed_factor = 0.02
+}
+SFB_consumer_goods_factor_modifier1 = { #消费品工厂
+      consumer_goods_factor = -0.025
+}
+SFB_gongyejianshe_1_modifier = { #工业建设1
+      research_speed_factor = keyansudu1 #研究速度
+	  production_factory_max_efficiency_factor = xiaolvzengzhang1 #效率增长
+	  production_factory_start_efficiency_factor = jichushengchan1 #基础生产率
+	  industrial_capacity_factory =  chanchu1 #产出
+	  global_building_slots_factor = diquzuidagongye1 #地区最大工业
+	  production_speed_buildings_factor = jianzaosudu1 #建造速度
+	  industry_repair_factor = gongchangweixiu1    #工厂维修
+	  consumer_goods_factor = xiaofeiping1 #消费品工厂
+}

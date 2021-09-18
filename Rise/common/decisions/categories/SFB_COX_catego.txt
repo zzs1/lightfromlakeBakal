@@ -1,0 +1,75 @@
+xinjiangkaishishehuibiange = {                 #创建决议栏
+     icon = generic_prospect_for_resources     #决议栏图标
+	 allowed ={
+	     tag = COX
+	     }
+	 visible = { 
+	     has_completed_focus = COX_focus.20 #可见的前置条件
+	     }
+     available = {           #决议栏可用的前置条件
+         has_completed_focus = COX_focus.20
+		 }
+	}
+xinjiangkaishijingjijianshe = {                 #创建决议栏
+     icon = generic_prospect_for_resources     #决议栏图标
+	 allowed ={
+	     tag = COX
+	     }
+	 visible = { 
+	     has_country_flag = COX_zaoqijingjijianshe #可见的前置条件
+	     }
+     available = {           #决议栏可用的前置条件
+         has_country_flag = COX_zaoqijingjijianshe
+		 }
+	}
+jingjiedu = {                 #警戒度
+     icon = generic_prospect_for_resources     #决议栏图标
+	 allowed ={
+	     tag = COX
+	     }
+	 visible = { 
+	     has_country_flag = COX_jingjiedu #可见的前置条件
+	     }
+     available = {           #决议栏可用的前置条件
+         has_country_flag = COX_jingjiedu
+		 }
+	}	
+guanliao = {                 #创建决议栏
+     icon = generic_prospect_for_resources     #决议栏图标
+	 allowed ={
+	     tag = COX
+	     }
+	 visible = { 
+	     has_completed_focus = COX_focus.15 #可见的前置条件
+		 not = {  has_country_flag = cr_shengli }
+	     }
+     available = {           #决议栏可用的前置条件
+	     not = {  has_country_flag = cr_shengli }
+         has_completed_focus = COX_focus.15
+		 }
+	}
+COX_aid = {
+    icon = generic_prospect_for_resources
+	allowed = {
+		tag = COX
+	}
+	visible = {
+		has_completed_focus = COX_focus.60
+		not = { has_completed_focus = COX_focus.69 }
+	}
+	available = {
+		has_completed_focus = COX_focus.60
+	    }
+    } 
+COX_industrialization = {
+	 icon = generic_prospect_for_resources
+	allowed = {
+		tag = COX
+	}
+	visible = {
+		has_completed_focus = COX_focus_167
+	}
+	available = {
+		has_completed_focus = COX_focus_167
+	    }
+}	

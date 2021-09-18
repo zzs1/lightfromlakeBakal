@@ -1,0 +1,15 @@
+bangzhuzhongguotongzhi ={
+bangzhuzhongguotongzhi.1 = {
+          visible ={
+               always = yes
+          }
+            
+          fire_only_once = yes
+          available = {
+               has_completed_focus = SVO_Ask_for_a_ceasefire
+          }
+          complete_effect = {
+               country_event = { id = SVO.2002 days = 2 random = 24 }
+          }
+     } 
+}

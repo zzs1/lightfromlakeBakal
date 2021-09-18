@@ -1,0 +1,12 @@
+bangzhuzhongguotongzhi = {                 #创建决议栏
+     icon = generic_prospect_for_resources     #决议栏图标
+	 allowed ={
+	     tag = SVO
+	     }
+	 visible = { 
+	     has_completed_focus = SVO_Ask_for_a_ceasefire #可见的前置条件
+	     }
+     available = {           #决议栏可用的前置条件
+         has_completed_focus = SVO_Ask_for_a_ceasefire
+		 }
+	}	 

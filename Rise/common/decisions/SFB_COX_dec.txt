@@ -1,0 +1,520 @@
+xinjiangkaishishehuibiange ={
+tuiguangnvxingquanli = {         #女性权益
+          visible = {                #决议可见的前置条件
+              has_completed_focus = COX_focus.21
+        }
+          fire_only_once = yes
+          available = {             #前提条件
+               has_completed_focus = COX_focus.21
+        }
+		cost = 50
+          complete_effect = {              #点击决议后效果
+            TNO_improve_poverty_low = yes  #慢贫困率
+			TNO_improve_industrial_expertise_low = yes #慢工业知识
+			TNO_improve_agriculture_low = yes #低农业
+        }
+    } 
+	tuiguangsaomangyundong = {         #扫盲运动
+          visible = {                #决议可见的前置条件
+              has_completed_focus = COX_focus.22
+        }
+          available = {             #前提条件
+               has_completed_focus = COX_focus.22
+        }
+		cost = 25
+          modifier = {              #决议持续效果
+           political_power_factor = -0.15
+        }
+		  days_remove = 45
+		  days_re_enable = 45
+		   remove_effect = {            #决议清除后效果
+			   TNO_improve_industrial_expertise_med = yes
+        }
+    } 
+   zuzhiqunzhongzuzhi = {         #群众组织
+          visible = {                #决议可见的前置条件
+              has_completed_focus = COX_focus.28
+        }
+          available = {             #前提条件
+               has_completed_focus = COX_focus.28
+        }
+		days_remove = 45
+		cost = 25
+		days_re_enable = 45
+          modifier = {
+		  add_political_power = -0.15
+		  industrial_capacity_factory = 0.10 #工业产出
+		  }
+		remove_effect = {            #决议清除后效果
+			   TNO_improve_industrial_expertise_med = yes
+     }
+   }
+}  
+xinjiangkaishijingjijianshe ={
+nongyehezuoshe = {         #农业合作社
+          visible = {                #决议可见的前置条件
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+          available = {             #前提条件
+          has_country_flag = COX_zaoqijingjijianshe
+        }
+		cost = 25
+		days_remove = 90
+		days_re_enable = 100
+          modifier = { add_political_power = -0.15}
+				remove_effect = {            #决议清除后效果
+			   TNO_improve_agriculture_med = yes #中农业
+                  add_to_variable = { nongyechanchubianhua = 5 }
+                   custom_effect_tooltip = nongyechanchubianhua_up5
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1 #建筑槽+1
+		    }
+         }
+    } 
+	muyejitihua = {         #创建决议
+          visible = {                #决议可见的前置条件
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+		  days_remove = 80
+		days_re_enable = 100
+          available = {             #前提条件
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+          modifier = { add_political_power = -0.15 }
+				remove_effect = {            #决议清除后效果
+			   TNO_improve_agriculture_low = yes #低农业
+			   TNO_improve_poverty_low = yes #贫困改善低等
+                  add_to_variable = { nongyechanchubianhua = 5 }
+                   custom_effect_tooltip = nongyechanchubianhua_up5
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1 #建筑槽+1
+		    }
+         }
+    } 
+    diaodongjijixing = {
+     visible = {                #邓小平通过特殊办法调动积极性
+               has_ideas = PRC_Deng_Xiaoping
+        }
+        available ={
+	     has_ideas = PRC_Deng_Xiaoping
+	     }
+        days_remove = 30
+        days_re_enable = 30
+        modifier = { command_power_gain = -0.2  }
+        remove_effect = {            #决议清除后效果
+			    add_to_variable = { nongyechanchu = 100 }
+                   add_stability = -0.1
+                   add_manpower = -5000
+         }
+     }
+     chukounongchanping = {
+     visible = {                #出口农产品
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+     available ={
+	     has_ideas = PRC_Deng_Xiaoping
+	     }
+        days_remove = 100
+        days_re_enable = 100
+        remove_effect = {            #决议清除后效果
+			    add_to_variable = { gongyechanchu = 20 }
+                   add_to_variable = { nongyechanchu = -100 }
+         }
+    }  
+    kuodayuancailiaogongying = {
+     visible = {                #扩大原材料功应
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+     available ={
+	     check_variable = {
+	    var = kuangyechanchu
+	    value = 10
+	    compare = greater_than_or_equals
+         custom_effect_tooltip = kuangyechanchu_dayu10
+	     }
+      }    
+        days_remove = 100
+        cost = 25
+        days_re_enable = 100
+        remove_effect = {            #决议清除后效果
+                   add_to_variable = { kuangyechanchu = -10 }
+                   add_to_variable = { gongyechanchubianhua = 2 }
+                   custom_effect_tooltip = gongyechanchubianhua_up2
+                   custom_effect_tooltip = kuangyechanchu_dowun10
+                   TNO_improve_industrial_equipment_low = yes
+                   add_to_variable = { chanchu1 = 0.005 }
+                   custom_effect_tooltip = chanchu_up1
+         }
+    }  
+ 
+    kaipikuangshan = {
+     visible = {                #开辟矿山
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+        available ={
+	     check_variable = {
+	    var = gongyechanchu
+	    value = 10
+	    compare = greater_than_or_equals
+         custom_effect_tooltip = kuangyechanchu_dayu10
+	     }
+     }  
+        days_remove = 100
+        cost = 25
+        days_re_enable = 100
+        remove_effect = {            #决议清除后效果
+                   add_to_variable = { kuangyechanchubianhua = 5 }
+                   add_to_variable = { gongyechanchu = -10 }
+                   custom_effect_tooltip = kongyechanchubianhua_up5
+                   custom_effect_tooltip = kuangyechanchu_dowun10
+                   any_owned_state = { 
+                    add_resource = {
+				type = steel
+				amount = 1
+			} 
+            }
+         }
+  } 
+kuodayuancailiaogongying = {
+     visible = {                #保证能源功应
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+        available ={
+             custom_trigger_tooltip= { 
+                  check_variable = {
+                  var = nengyuanchanchu
+	             value = 10
+	            compare = greater_than_or_equals } 
+                 tooltip= nengyuanchanchu_dayu10 }
+       }   
+        days_remove = 100
+        cost = 25
+        days_re_enable = 100
+        remove_effect = {            #决议清除后效果
+                   add_to_variable = { nengyuanchanchu = -10 }
+                   add_to_variable = { gongyechanchubianhua = 2 }
+                   custom_effect_tooltip = gongyechanchubianhua_up2
+                   custom_effect_tooltip = nengyuanchanchu_dowun10
+                   TNO_improve_industrial_equipment_low = yes
+                   add_to_variable = { chanchu1 = 0.005 }
+                   custom_effect_tooltip = chanchu_up1
+         }
+    }  
+    
+    kuodayuancailiaogongying = {
+     visible = {                #城乡产品交换
+               has_country_flag = COX_zaoqijingjijianshe
+        }
+        available ={
+	     check_variable = {
+	    var = guangyechanchu
+	    value = 10
+	    compare = greater_than_or_equals
+         custom_effect_tooltip = guangyechanchu_dayu10
+	     }
+          check_variable = {
+	    var = guangyechanchu
+	    value = 10
+	    compare = greater_than_or_equals
+         custom_effect_tooltip = nuangyechanchu_dayu25
+	     }
+     } 
+        days_remove = 100
+        days_re_enable = 100
+        cost = 30
+        remove_effect = {            #决议清除后效果
+                   add_to_variable = { guangyechanchu = -10 }
+                   add_to_variable = { kuanguangyechanchu = -25 }
+                   add_to_variable = { gongyechanchubianhua = 2 }
+                   add_to_variable = { nongyechanchubianhua = 5 }
+                   custom_effect_tooltip = nongyechanchubianhua_up5
+			custom_effect_tooltip = gongyechanchubianhua_up2
+               TNO_improve_agriculture_med = yes #中农业
+               TNO_improve_industrial_equipment_low = yes #低工业
+			   TNO_improve_poverty_low = yes #低贫困
+                  add_to_variable = { chanchu1 = 0.005 }
+                  custom_effect_tooltip = chanchu_up1
+         }
+    }  
+}
+guanliao ={
+zhengfengyundong = {         #创建决议
+          visible = {                #决议可见的前置条件
+               has_completed_focus = COX_focus.15
+        }
+          available = {             #前提条件
+               always = yes
+        }
+		cost = 25
+		days_remove = 30
+		days_re_enable = 30
+				remove_effect = {            #决议清除后效果
+			    add_to_variable = { guanliao_power = -1 tooltip = guanliao_down_1 }
+         }
+    } 
+}
+ jingjiedu = {
+     changshijiangdiweixie = {         #创建决议
+          visible = {                #决议可见的前置条件
+               has_country_flag = COX_jingjiedu
+        }
+          available = {             #前提条件
+               always = yes
+        }
+		cost = 25
+		days_remove = 100
+		days_re_enable = 100
+				remove_effect = {            #决议清除后效果
+			    add_to_variable = { jingjiedu = -1 tooltip = jinjiedu_down_1 }
+         }
+    } 
+}
+COX_aid = {
+     Kazakh_cavalry_training = {
+          visible = {
+               has_completed_focus = COX_focus.60
+          }
+          available = {
+               always = yes
+          }
+          cost = 25
+          days_remove = 60
+          fire_only_once = yes
+          remove_effect = {
+               add_timed_idea = {
+                    idea = cavalry_training
+                    days = 120
+               }
+          }
+     }
+     Irkutsk_power = {
+          visible = {
+               has_completed_focus = COX_focus.60
+          }
+          available = {
+               always = yes
+          }     
+          cost = 25
+          days_remove = 60
+          fire_only_once = yes
+          remove_effect = {
+               add_timed_idea = {
+                    idea = electricity
+                    days = 120
+               }
+          }
+     }
+     Siberian_wheat = {
+           visible = {
+               has_completed_focus = COX_focus.60
+          }
+          available = {
+               always = yes
+          }     
+          cost = 25
+          days_remove = 60
+          fire_only_once = yes
+          remove_effect = {
+               add_timed_idea = {
+                    idea = wheat
+                    days = 120
+               }
+          }
+     }
+}
+COX_industrialization = {
+     check_old_machines = {
+          visible = {
+               has_completed_focus = COX_focus_169
+          }
+          available = {
+               check_variable = {
+                    var = old_machine
+                    value = old_machine_max
+                    compare = less_than_or_equals
+               }
+          }
+          cost = 5
+          days_remove = 15
+          days_re_enable = 15
+          remove_effect = {
+               custom_effect_tooltip = COX_fac
+               add_to_variable = {
+                    var = machine_tool
+                    value = 1
+               }
+               add_to_variable = {
+                    var = old_machine
+                    value = 1
+               }
+          }
+     }
+     buy_new_machines = {
+          visible = {
+               has_completed_focus = COX_focus_172
+          }
+          available = {
+               always = yes
+          }
+          cost = 15
+          days_remove = 30
+          days_re_enable = 30
+          remove_effect = {
+               add_to_variable = {
+                    var = machine_tool
+                    value = 1
+               }
+               custom_effect_tooltip = COX_fac
+               add_timed_idea = {
+                    idea = pay_for_the_machines
+                    days = 30
+               }
+          }
+     }
+     train_workers = {
+          visible = {
+               has_completed_focus = COX_focus_168
+          }
+          available = {
+               always = yes
+          }
+          cost = 5
+          days_remove = 15
+          days_re_enable = 15
+          remove_effect = {
+               custom_effect_tooltip = COX_fab
+               add_to_variable = {
+                    var = worker_available
+                    value = 1
+               }
+          }
+     }
+     night_school = {
+          visible = {
+               has_completed_focus = COX_focus_171
+          }
+          available = {
+               always = yes
+          }
+          cost = 10
+          days_remove = 15
+          days_re_enable = 15
+          remove_effect = {
+               TNO_improve_industrial_expertise_low = yes
+               add_to_variable = {
+                    var = worker_trained
+                    value = 10
+               }
+          }
+     }
+     build_civilian_factory = {
+          visible = {
+               has_completed_focus = COX_focus_169
+          }
+          available = {
+               check_variable = {
+                    var = machine_tool
+                    value = factory_machine
+                    compare = greater_than_or_equals
+                    var = worker_available
+                    value = worker_limit_factory
+                    compare = greater_than_or_equals
+               }
+          }
+               cost = 0
+               days_remove = 30
+               days_re_enable = 30
+               complete_effect = {
+                    add_to_variable = {
+                         var = machine_tool
+                         value = -4
+                    }
+               }
+               remove_effect = {
+                    custom_effect_tooltip = COX_fae
+                    random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+                    }
+               }
+          }
+     }
+     build_armor_factory = {
+          visible = {
+               has_completed_focus = COX_focus_169
+          }
+          available = {
+               check_variable = {
+                    var = machine_tool
+                    value = factory_machine
+                    compare = greater_than_or_equals
+                    var = worker_available
+                    value = worker_limit_factory
+                    compare = greater_than_or_equals
+               }
+          }
+               cost = 0
+               days_remove = 30
+               days_re_enable = 30
+               complete_effect = {
+                    add_to_variable = {
+                         var = machine_tool
+                         value = -4
+                    }
+               }
+               remove_effect = {
+                    custom_effect_tooltip = COX_fae
+                    random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+                    }
+               }
+          }
+     }
+     fix_road = {
+          visible = {
+               has_completed_focus = COX_focus_169
+          }
+          available = {
+               check_variable = {
+                    var = machine_tool
+                    value = construction_machine
+                    compare = greater_than_or_equals
+                    var = worker_available
+                    value = worker_limit_road
+                    compare = greater_than_or_equals
+               }
+          }
+          cost = 0
+          days_remove = 30
+          days_re_enable = 30
+          complete_effect = {
+               add_to_variable = {
+                    var = machine_tool
+                    value = -2
+               }
+               add_to_variable = {
+                    var = worker_available
+                    value = -1
+               }
+          }
+          remove_effect = {
+               custom_effect_tooltip = COX_fam
+               random_owned_controlled_state = {
+                    add_building_construction = {
+                         type = infrastructure
+                         level = 1
+                         instant_build = yes
+                    }
+               }
+               add_to_variable = {
+                    var = worker_available
+                    value = 1
+               }
+          }
+     }
+}

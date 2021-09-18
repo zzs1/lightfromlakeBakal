@@ -1,0 +1,526 @@
+ideas = {
+
+	country = {
+        BRY_China_juntuan_help = {
+            picture = WRS_veterans_of_the_long_war
+            name = "China_juntuan"
+			modifier = {
+		        army_org_factor = 0.10 
+				army_attack_factor = 0.1 
+				army_morale_factor = 0.1 
+				war_support_factor = 0.1 
+			}
+		}
+		BRY_old_red_army_help = {
+            picture = WRS_veterans_of_the_long_war
+            name = "old_red_army_help"
+			modifier = {
+		        army_org_factor = 0.20 
+				army_attack_factor = 0.2 
+				army_morale_factor = 0.2 
+				war_support_factor = 0.2 
+				attrition = -0.1 
+				terrain_penalty_reduction = 0.1 
+			}
+		}
+        SFB_left_union = {
+            picture = WRS_veterans_of_the_long_war
+            name = "left_union"
+			modifier = {
+		        political_power_factor = 0.2 
+				stability_factor = 0.1 
+				war_support_factor = 0.1 
+				drift_defence_factor = 0.2
+			}
+		}
+     SFB_SIK_hunluan = {
+            picture = WRS_veterans_of_the_long_war
+            name = "SIK_hunluan"
+			modifier = {
+		        political_power_factor = -0.2 
+				stability_factor = -0.1 
+				war_support_factor = -0.1 
+			}
+		}
+         China_yananmoshi = {
+            picture = yananmoshi
+            name = "yananmoshi"
+			modifier = {
+                stability_factor = 0.1
+			    compliance_gain = 0.05
+			    political_power_factor = -0.1
+			}
+		}
+		China_yananmoshi_1 = {
+            picture = yananmoshi
+            name = "yananmoshi"
+			modifier = {
+                stability_factor = 0.1
+			    war_support_factor = 0.1
+			    compliance_gain = 0.12
+			    political_power_factor = -0.15
+			}
+		}
+		China_yananmoshi_2 = {
+            picture = yananmoshi
+            name = "yananmoshi"
+			modifier = {
+                industrial_capacity_factory = 0.05
+                compliance_gain = 0.14
+			    political_power_factor = -0.1
+			    compliance_gain = 0.15
+			}
+		}
+		China_yananmoshi_3 = {
+            picture = yananmoshi
+            name = "yananmoshi"
+			modifier = {
+                industrial_capacity_factory = 0.1
+			    production_factory_max_efficiency_factor = 0.05
+			    conscription_factor = 0.02
+			    compliance_gain = 0.20
+			    war_support_factor = 0.15
+			    stability_factor = 0.15
+			    political_power_factor = -0.15
+			}
+		}
+	    China_guanliao_1 = {
+            picture = WRS_veterans_of_the_long_war
+            name = "guanliao"
+			modifier = {
+			    political_power_factor = 0.05
+			    industrial_capacity_factory = 0.05
+			    stability_factor = 0.05
+			    production_factory_max_efficiency_factor = 0.05
+			}
+		}	
+		China_guanliao_2 = {
+            picture = WRS_veterans_of_the_long_war
+            name = "guanliao"
+			modifier = {
+			    political_power_factor = 0.1
+			}
+		}
+		China_guanliao_3 = {
+            picture = WRS_veterans_of_the_long_war
+            name = "guanliao"
+			modifier = {
+			    political_power_factor = 0.15
+			    industrial_capacity_factory = -0.1 
+			    stability_factor = -0.1 
+			    war_support_factor = -0.1 
+			    production_factory_max_efficiency_factor = -0.1 
+			    army_org_factor = -0.05 
+			    army_attack_factor = -0.05 
+			    army_morale_factor = -0.05 
+			}
+		}
+		China_guanliao_4 = {
+            picture = WRS_veterans_of_the_long_war
+            name = "guanliao"
+			modifier = {
+			    political_power_factor = 0.2 
+			    industrial_capacity_factory = -0.15 
+			    stability_factor = -0.15 
+			    war_support_factor = -0.15 
+			    production_factory_max_efficiency_factor = -0.15 
+			    army_org_factor = -0.1 
+			    army_attack_factor = -0.1 
+			    army_morale_factor = -0.1 
+			}
+		}
+		nongyeshui = {
+    	    picture = WRS_veterans_of_the_long_war
+    		name = "nongyeshui"
+			modifier = {
+        	    industrial_capacity_factory = 0.1
+			    production_factory_max_efficiency_factor = 0.1
+			    army_morale_factor = 0.1
+			}	
+		}
+		wandering = {
+    		picture = wandering
+    		name = "wandering"
+			modifier = {
+				add_war_support = -0.2
+				army_morale_factor = -0.2
+				army_defence_factor = -0.2
+				army_org_Factor = -0.10
+				military_leader_cost_factor = 20
+				political_power_factor = -0.3
+				army_attack_factor = 0.2
+			}	
+		}
+		low_support = {
+    		picture = lowsupport
+    		name = "low_support"
+			modifier = {
+				conscription_factor = -0.2
+				stability_factor = -0.4
+			}	
+		}
+		SFB_shehuizhuyijingjilianxi_1 = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "shehuizhuyijingjilianxi"
+			modifier = {
+			    production_speed_buildings_factor= 0.03
+			    research_speed_factor = 0.01
+			    industrial_capacity_factory = 0.02
+			    production_factory_max_efficiency_factor = 0.01
+			    consumer_goods_factor = 0.05
+			}	
+		}
+		SFB_shehuizhuyijingjilianxi_2 = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "shehuizhuyijingjilianxi"
+			modifier = {
+			    production_speed_buildings_factor= 0.04
+			    research_speed_factor = 0.02
+			    industrial_capacity_factory = 0.03
+			    production_factory_max_efficiency_factor = 0.02
+			    consumer_goods_factor = 0.07
+			}	
+		}
+		SFB_shehuizhuyijingjilianxi_3 = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "shehuizhuyijingjilianxi"
+			modifier = {
+			    production_speed_buildings_factor= 0.07
+			    research_speed_factor = 0.04
+			    industrial_capacity_factory = 0.07
+			    production_factory_max_efficiency_factor = 0.07
+			    consumer_goods_factor = 0.10
+			}	
+		}
+		Touhou = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "Touhou"
+			modifier = {
+				army_morale_factor = 2
+				army_defence_factor = 5
+				army_org_Factor = 2
+				political_power_factor = 5
+				army_attack_factor = 20
+			}	
+		}
+		land_reform_in_progress = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "land_reform_in_progress"
+			modifier = {
+				political_power_factor = -0.2
+				compliance_gain = 0.2
+			}	
+		}
+		 unrestricted_slavery = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "unrestricted_slavery"
+			modifier = {
+				compliance_gain = -0.2
+				production_speed_buildings_factor = -0.2
+				conscription_factor = -0.4
+			}	
+		}
+		orginised_slave = {
+		   picture = WRS_veterans_of_the_long_war
+		   name = "orginised_slave"
+		   modifier = {
+			   compliance_gain = -0.1
+			   production_speed_buildings_factor = -0.2
+			   conscription_factor = -0.2
+		    }	
+	    }
+		abolition_of_slavery_in_progress = {
+		   picture = WRS_veterans_of_the_long_war
+		   name = "abolition_of_slavery_in_progress"
+		   modifier = {
+			   compliance_gain = 0
+			   production_speed_buildings_factor = -0.1
+			   conscription_factor = -0.1
+		    }	
+	    }
+		non_self_contained_small_Small_farmers_economy = {
+		   picture = WRS_veterans_of_the_long_war
+		   name = "non_self_contained_small_Small_farmers_economy"
+		   modifier = {
+			   compliance_gain = 0.1
+			   production_speed_buildings_factor = -0.1
+			   conscription_factor = -0.1
+		    }	
+	    }
+		recovering_small_farmers_economy = {
+		   picture = WRS_veterans_of_the_long_war
+		   name = "recovering_small_farmers_economy"
+		   modifier = {
+			   compliance_gain = 0.2
+			   conscription_factor = -0.1
+		    }	
+	    }
+		obsolescent_water_system = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "obsolescent_water_system"
+			modifier = {
+				conscription_factor = -0.3
+				consumer_goods_factor = 0.2
+				add_manpower = -100
+			}	
+		}
+		outdated_water_system = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "outdated_water_system"
+			modifier = {
+				conscription_factor = -0.3
+				consumer_goods_factor = 0.1
+			}	
+		}
+		mode_of_minzu_darin = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "mode_of_minzu_darin"
+			modifier = {
+				conscription_factor = -0.2
+				political_power_gain = 0.2
+			}	
+		}
+		good_water_system = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "good_water_system"
+			modifier = {
+				political_power_gain = 0.3
+				production_speed_buildings_factor = 0.1
+			}	
+		}
+		bloated_religious_institutions = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "bloated_religious_institutions"
+			modifier = {
+				consumer_goods_factor = 0.2
+				political_power_gain =-0.5
+			}	
+		}
+		cut_off_religious_tax = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "cut_off_religious_tax"
+			modifier = {
+				consumer_goods_factor = 0.15
+				political_power_gain =-0.3
+			}	
+		}
+		abrogate_rights = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "abrogate_rights"
+			modifier = {
+				consumer_goods_factor = 0.10
+				political_power_gain =-0.1
+			}	
+		}
+		red_public_field = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "red_public_field"
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_gain =0
+			}	
+		}
+		revolutionary_religion = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "revolutionary_religion"
+			modifier = {
+				political_power_gain =0.3
+			}	
+		}
+		achievement_of_first_land_revelotion = {
+    		picture = tugai
+    		name = "achievement_of_first_land_revelotion"
+			modifier = {
+				political_power_gain =0.4
+				production_speed_buildings_factor = 0.1
+				compliance_gain = 0.3
+				consumer_goods_factor = -0.05
+			}	
+		}
+		old_red_army = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "old_red_army"
+			modifier = {
+				army_org_factor = -0.1
+				army_morale_factor = -0.1
+			}	
+		}
+		new_red_army_first = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "new_red_army"
+			modifier = {
+				army_org_factor = 0.03
+				war_support_factor = 0.03
+			}	
+		}
+		new_red_army_second = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "new_red_army"
+			modifier = {
+				army_org_factor = 0.03
+				war_support_factor = 0.03
+				army_infantry_attack_factor = 0.03
+			}	
+		}
+		new_red_army_third = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "new_red_army"
+			modifier = {
+				army_org_factor = 0.03
+				war_support_factor = 0.03
+				army_infantry_attack_factor = 0.03
+				terrain_penalty_reduction = 0.05
+				army_speed_factor = 0.05
+			}	
+		}
+		new_red_army_final = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "new_red_army"
+			modifier = {
+				army_org_factor = 0.05
+				war_support_factor = 0.03
+				army_infantry_attack_factor = 0.03
+				terrain_penalty_reduction = 0.05
+				army_speed_factor = 0.05
+				army_morale_factor = 0.03
+			}	
+		}
+		three_shifts_military_production = {
+			picture = WRS_veterans_of_the_long_war
+			name = "three_shifts_military_production"
+			modifier = {
+				industrial_capacity_factory = 0.15
+				political_power_gain = -0.05
+				stability_weekly_factor = -0.05
+			}
+		}
+		XSM_news_all_in_control = {
+			picture = WRS_veterans_of_the_long_war
+			name = "XSM_news_all_in_control"
+			targeted_modifier = {
+				tag = XSM
+				attack_bonus_against = 0.15
+                defense_bonus_against = 0.15
+
+			}
+		}	
+		guard_against_mechanized_troops = {
+			picture = WRS_veterans_of_the_long_war
+			name = "guard_against_mechanized_troops"
+			targeted_modifier = {
+				tag = HUI
+				defense_bonus_against = 0.05
+			}
+		}		
+		enthusiasm_mobilized = {
+			picture = WRS_veterans_of_the_long_war
+			name = "enthusiasm_mobilized"
+			modifier = {
+				industrial_capacity_factory = 0.1
+				political_power_gain = 0.05
+				stability_weekly_factor = 0.05
+			}
+		}
+		people_union = {
+			picture = WRS_veterans_of_the_long_war
+			name = "people_union"
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		people_union_next = {
+			picture = WRS_veterans_of_the_long_war
+			name = "people_union"
+			modifier = {
+				conscription_factor = 0.1
+				political_power_gain = 0.1
+				stability_weekly_factor = 0.05
+			}	
+		}
+		beat_HUI = {
+			picture = WRS_veterans_of_the_long_war
+			name = "beat_HUI"
+			targeted_modifier = {
+				tag = HUI
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		new_officers_prepared = {
+    		picture = WRS_veterans_of_the_long_war
+    		name = "new_officers_prepared"
+			modifier = {
+				army_org_factor = -0.05
+				army_morale_factor = -0.05
+				army_defence_factor = -0.1
+				military_leader_cost_factor = 15
+				political_power_factor = -0.2
+				army_attack_factor = 0.15
+			}	
+		}
+		jiaofei = {
+    		picture = jiaofei
+    		name = "jiaofei"
+			modifier = {
+				experience_gain_army = 0.1
+			}
+		}
+		wheat = {
+			picture = wheat
+			name = "wheat"
+			modifier = {
+				consumer_goods_factor = 0.025
+				supply_consumption_factor = -0.10
+			}
+		}
+		electricity = {
+			picture = power
+			name = "electricity"
+			modifier = {
+				consumer_goods_factor = 0.025
+				industrial_capacity_factory = 0.05
+			}
+		}
+		cavalry_training = {
+			picture = qibing
+			name = "cavalry_training"
+			modifier = {
+				cavalry_attack_factor = 0.05
+				cavalry_defence_factor = 0.05
+			}
+		}
+		provisional_industrial_council = {
+			picture = WRS_veterans_of_the_long_war
+			name = "provisional_industrial_council"
+			modifier = {
+				industrial_capacity_factory = 0.015
+				production_factory_efficiency_gain_factor = 0.015
+			}
+		}
+		hot_construction = {
+			picture = WRS_veterans_of_the_long_war
+			name = "hot_construction"
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.015
+				production_speed_infrastructure_factor = 0.015
+				production_speed_buildings_factor = 0.015
+			}
+		}
+		early_industrialization = {
+			picture = WRS_veterans_of_the_long_war
+			name = "early_industrialization"
+			modifier = {
+				industrial_capacity_factory = 0.025
+				production_factory_efficiency_gain_factor = 0.025
+			}
+		}
+		pay_for_the_machines = {
+			picture = WRS_veterans_of_the_long_war
+			name = "pay_for_the_machines"
+			modifier = {
+				consumer_goods_factor = 0.025
+			}
+		}
+	}
+}
+		

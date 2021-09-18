@@ -1,0 +1,8 @@
+PLAYER_the_seeds_of_revolution = {
+
+	icon = spr_the_seeds_of_revolution
+	
+	allowed = {
+
+	}
+}

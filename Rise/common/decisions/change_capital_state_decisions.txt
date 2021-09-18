@@ -1,0 +1,67 @@
+change_capital_decision_category = {
+	
+	change_capital_state_hide = {
+		icon = GFX_decision_generic_form_nation
+		
+		visible = {
+			NOT = {
+				has_country_flag = change_capital_hide
+			}
+		}
+		
+		complete_effect = {
+			set_country_flag = change_capital_hide
+		}
+	}
+	
+	change_capital_state_show = {
+		icon = GFX_decision_generic_form_nation
+		
+		visible = {
+			has_country_flag = change_capital_hide
+		}
+		
+		complete_effect = {
+			clr_country_flag = change_capital_hide
+		}
+	}
+
+	change_capital_state_on_map = {
+		
+		icon = GFX_decision_generic_form_nation
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		target_array = core_states
+		fire_only_once = no
+
+		cost = 100
+				
+		target_trigger = {
+			FROM = {
+				impassable = no
+				is_owned_by = ROOT
+			}
+		}
+		
+		visible = {
+			FROM = { 
+				is_controlled_by = ROOT 
+				is_owned_by = ROOT
+				is_capital = no
+			}
+			NOT = { ROOT = { has_country_flag = change_capital_hide } }
+		}
+
+		complete_effect = {
+			ROOT = { set_capital = FROM }
+		}
+		
+		available = {
+			FROM = { is_fully_controlled_by = ROOT }		
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+}

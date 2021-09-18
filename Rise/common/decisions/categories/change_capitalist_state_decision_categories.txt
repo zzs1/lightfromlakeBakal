@@ -1,0 +1,5 @@
+change_capital_decision_category = {
+	icon = GFX_decision_generic_form_nation
+
+	allowed = { always = yes }
+}

@@ -1,0 +1,12 @@
+COX_generic_debug = {
+	allowed = {
+		always = yes
+	}
+	visible = {
+		is_debug = yes
+		is_ai = no
+	}
+	priority = {
+		base = 199
+	}
+}

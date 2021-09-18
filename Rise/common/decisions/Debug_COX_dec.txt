@@ -1,0 +1,68 @@
+COX_generic_debug = {
+debug.touhougetintothisfuckingworld = {         #创建决议
+          visible = {                #决议可见的前置条件
+               always = yes
+        }
+          fire_only_once = no
+          available = {             #前提条件
+               always = yes
+        }
+          complete_effect = {              #完成决议后效果
+          create_country_leader = {
+               name = "Yakumo Ran"
+               desc = "Ran_desc"
+               picture = "gfx/leaders/COX/Ran.dds" 
+               expire = "2050.1.1"
+               ideology = maoist 
+               traits = {
+               }
+               add_war_support = 1
+               add_stability = 1
+               remove_ideas = "wandering"  
+               remove_ideas = "low_support"
+               add_core_of = all
+               add_manpower = 10000000
+               add_offsite_building = { 
+                    type = industrial_complex level = 2000 
+               }
+               set_politics = {
+                    ruling_party = communism
+                    last_election = "1936.1.1"
+                    election_frequency = 48
+                    elections_allowed = no
+               }
+               add_ideas = "Touhou"     
+               } 
+        }
+     }
+debug.build1 = {         #创建决议
+          visible = {                #决议可见的前置条件
+               always = yes
+        }
+          fire_only_once = no
+          available = {             #前提条件
+               always = yes
+        }
+          complete_effect = {              #完成决议后效果
+               load_focus_tree = { 
+                    tree = COX_build1
+                    keep_completed = no 
+                    } 
+        }
+        }
+debug.build2 = {         #创建决议
+        visible = {                #决议可见的前置条件
+             always = yes
+      }
+        fire_only_once = no
+        available = {             #前提条件
+             always = yes
+      }
+        complete_effect = {              #完成决议后效果
+             load_focus_tree = { 
+                  tree = COX_build2
+                  keep_completed = no 
+                  } 
+      }
+      }
+      }
