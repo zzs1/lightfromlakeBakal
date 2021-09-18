@@ -1,0 +1,11 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_ROM_SPART_1950_medium"
+		texturefile = "gfx/interface/technologies/FIN_Heavy_Artillery_50.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROM_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN_MBT_45.dds"
+	}
+}

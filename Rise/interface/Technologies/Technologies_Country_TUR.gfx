@@ -1,0 +1,131 @@
+spriteTypes = {
+
+	## Turkey
+	
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_1_medium"
+		texturefile = "gfx/interface/technologies/TUR_Infantry_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/TUR_Infantry_58.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_4_medium"
+		texturefile = "gfx/interface/technologies/TUR_Infantry_68.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_5_medium"
+		texturefile = "gfx/interface/technologies/TUR_Infantry_78.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons_6_medium"
+		texturefile = "gfx/interface/technologies/TUR_Infantry_88.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_at_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/ITA_infantry_at_58.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_at7_medium"
+		texturefile = "gfx/interface/technologies/TUR_infantry_at_68.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_at10_medium"
+		texturefile = "gfx/interface/technologies/TUR_infantry_at_78.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_at13_medium"
+		texturefile = "gfx/interface/technologies/TUR_infantry_at_88.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_artillery4_medium"
+		texturefile = "gfx/interface/technologies/TUR_Artillery_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_artillery_1950_medium"
+		texturefile = "gfx/interface/technologies/TUR_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/TUR_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/TUR_Artillery_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/TUR_fighter_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_fighter_1945_medium"
+		texturefile = "gfx/interface/technologies/GER_fighter_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_fighter_1950_medium"
+		texturefile = "gfx/interface/technologies/ITA_fighter_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_fighter_1960_medium"
+		texturefile = "gfx/interface/technologies/TUR_fighter_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_fighter_1970_medium"
+		texturefile = "gfx/interface/technologies/TUR_fighter_70.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TUR_CAS_1945_medium"
+		texturefile = "gfx/interface/technologies/IBR_CAS_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_CAS_1950_medium"
+		texturefile = "gfx/interface/technologies/ITA_CAS_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_CAS_1960_medium"
+		texturefile = "gfx/interface/technologies/TUR_CAS_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_CAS_1970_medium"
+		texturefile = "gfx/interface/technologies/TUR_CAS_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_very_early_helicopter_medium"
+		texturefile = "gfx/interface/technologies/GER_very_early_heli.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_early_helicopter_medium"
+		texturefile = "gfx/interface/technologies/ITA_early_heli.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_scout_plane_1945_medium"
+		texturefile = "gfx/interface/technologies/ITA_Scout_Plane_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_scout_plane_1950_medium"
+		texturefile = "gfx/interface/technologies/ITA_Scout_Plane_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_scout_plane_1960_medium"
+		texturefile = "gfx/interface/technologies/TUR_Scout_Plane_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_scout_plane_1970_medium"
+		texturefile = "gfx/interface/technologies/TUR_Scout_Plane_70.dds"
+	}
+}

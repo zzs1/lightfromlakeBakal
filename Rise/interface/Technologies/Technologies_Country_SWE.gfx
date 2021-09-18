@@ -1,0 +1,24 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_SWE_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/SWE_MBT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_SWE_MBT_1950_medium"
+		texturefile = "gfx/interface/technologies/SWE_MBT_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_SWE_MBT_1960_medium"
+		texturefile = "gfx/interface/technologies/SWE_MBT_60.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SWE_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/SWE_IFV_45.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SWE_APC_1960_medium"
+		texturefile = "gfx/interface/technologies/SWE_APC_60.dds"
+	}
+}
