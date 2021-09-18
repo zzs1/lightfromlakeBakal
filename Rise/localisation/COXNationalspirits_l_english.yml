@@ -1,0 +1,99 @@
+l_english:
+
+ SFB_BRY_category:0"援助我们的阶级兄弟"
+ 
+ #官僚
+ 
+ guanliao:0 "官僚问题"
+ guanliao_ruoxiao:0 "§G忽略不计的官僚问题§!"
+ China_guanliao_1:0 "干部群众关系和谐"
+ China_guanliao_1_desc:0 "当下我们共和国内部干部作风优良，和百姓打成一片，为百姓服务，百姓也很爱戴干部们，整体而言其乐融融。"
+ guanliao_yiban:0 "§W官僚作风初步诞生§!"
+ China_guanliao_2:0 "官僚主义作风"
+ China_guanliao_2_desc:0 "目前我们的部分党员有了不好的作风，不和人民群众接触，认为自己当了官了，看不起百姓了，这种作风不对，但所幸，有可以挽回的机会"
+ guanliao_qiangshi:0 "§B制度性官僚问题§!"
+ China_guanliao_3:0 "官僚问题遍地"
+ China_guanliao_3_desc:0 "现在我们国家之中，党员脱离群众成了一个很正常的现象，各大党报机关在写文章论证党员干部脱离群众的必要性，在论证党员干部有比普通群众拥有更好生活的必要性，在对群众灌输，党做什么都是对的的思想。军队内部，争权夺利的能力远远比指挥能力要更为重要"
+ guanliao_tongzhi:0 "§R官僚共和国§!"
+ China_guanliao_4:0 "不存在官僚问题了"
+ China_guanliao_4_desc:0 "“看看这个国家，和平稳定又繁荣，一切问题都消失了！”"
+ 
+ #有描述但是不知道咋分类
+
+ nongyeshui:0 "农业税"
+ nongyeshui_desc:0 "要恰饭的嘛，工人军人不可能不恰饭的嘛，我们都是人，都要恰饭的嘛"
+ low_support:0 "低民众支持度"
+ low_support_desc:0 "根据地的人民还不信任我们，如果想让革命继续下去，我们必须争取他们的支持。"
+ wandering:0 "游子勿念还乡"
+ wandering_desc:0 "中国旅的组织完全为小规模冲突而设计，这导致了我们不能适应根据地建设的需要。"
+ land_reform_in_progress:0"土地改革进行中"
+ land_reform_in_progress_desc:0"土改进行当中，我们必须全心全力的投入，任何疏忽都会让我们的努力付诸东流。"
+ 
+ #解放农奴
+ 
+ unrestricted_slavery:0"不受限制的农奴制"
+ unrestricted_slavery_desc:0"农奴制的普遍存在严重限制了我们的生产力。"
+ orginised_slave:0"农奴组织"
+ orginised_slave_desc:0"大量农奴已经被发动了起来，要求废除农奴制。"
+ abolition_of_slavery_in_progress:0"废奴斗争愈演愈烈"
+ abolition_of_slavery_in_progress_desc:0"广大乡村的农奴正为了争取解放而展开不懈斗争。"
+ non_self_contained_small_Small_farmers_economy:0"不能自给自足的小农经济"
+ non_self_contained_small_Small_farmers_economy_desc:0"农奴制已经被基本废除，但广大农民仍缺乏必要的生产资料。"
+ recovering_small_farmers_economy:0"逐渐恢复的小农经济"
+ recovering_small_farmers_economy_desc:0"经过艰难的斗争，新疆的农民也能如中原的农民一样，进行自食其力的生产了。"
+
+ #水利
+
+ obsolescent_water_system:0"荒废的水利设施"
+ obsolescent_water_system_desc:0"新疆旧有的水利设施正因属于维护而逐年荒废。"
+ outdated_water_system:0"陈旧的水利设施"
+ outdated_water_system_desc:0 "水源得到了公平分配，但新疆的水利设施仍旧不能支撑成规模的农业生产。"
+ mode_of_minzu_darin:0 "民族渠模式"
+ mode_of_minzu_darin_desc:0 "我们要发挥农民的主动性，因地制宜地建设水利系统！"
+ good_water_system:0 "焕然一新的水利设施"
+ good_water_system_desc:0 "大量的水利设施被建立了起来，基本可以满足农业用水需要，但与富饶的中原相比，我们仍有很长的路要走。"
+ 
+ #宗教
+ 
+ bloated_religious_institutions:0 "臃肿的宗教系统"
+ bloated_religious_institutions_desc:0 "清真寺里住满了脱产的阿訇，成为了人民身上的沉重负担。"
+ cut_off_religious_tax:0 "合理的宗教税"
+ cut_off_religious_tax:0 "新疆的人民第一次能够从宗教的沉重压迫下喘上一口气了。"
+ abrogate_rights:0 "精简的清真寺"
+ abrogate_rights_desc:0 "清真寺的诸多特权被废除，人员也精简了，劳动群众如今再也不需要供养大量的脱产人口了。"
+ red_public_field:0 "红色瓦哈甫地"
+ red_public_field_desc:0 "重新公有化的瓦哈甫地成为了小农经济的有力补充。"
+ revolutionary_religion:0 "革命宗教"
+ revolutionary_religion_desc:0 "剥削者的武器，现在指向了他们自己。"
+ achievement_of_first_land_revelotion:0 "第一次土地革命的成果"
+ achievement_of_first_land_revelotion_desc:0 "经过了深刻的变革，新疆农村的面貌焕然一新了。"
+ 
+ #暂时不知道怎么归类（没描述）
+ 
+ wangxiangzhiren:0 "望乡之人"
+ yananmoshi:0 "延安模式"
+ old_red_army_help:0"老红军的加盟"
+ revolution_Wiadeul:0"革命的独子"
+ China_junduihunluan:0 "军队混乱"
+ old_red_army:0 "训练指战员"
+ old_red_army_DESC:"我们正在将一部分老战士训练为指战员，这有助于我们扩大军队的规模。"
+ new_red_army:0 "新工农红军"
+ three_shifts_military_production:0 "三班倒军工生产"
+ XSM_news_all_in_control:0 "马家军情报尽在掌握"
+ guard_against_mechanized_troops:0 "警惕机械化部队"
+ enthusiasm_mobilized:0 "生产积极性被调动"
+ people_union:0 "人民联合战线"
+ beat_HUI:0 "打倒疯将军"
+ new_officers_prepared:0 "新指战员就绪"
+ new_officers_prepared_DESC:0 "新的指战员已经完成了培训并陆续就任，但这只是权宜之计，我们仍然需要考虑部队的指挥问题。"
+ jiaofei:0 "在哈萨克斯坦的剿匪行动"
+ electricity:0 "伊尔库茨克水电站电力"
+ wheat:0 "西伯利亚优质谷物"
+ cavalry:0 "哈萨克式骑兵训练"
+ hot_construction:0 "根据地建设运动"
+ provisional_industrial_council:0 "临时工业委员会"
+ early_industrialization:0 "复苏中的新疆工业"
+ pay_for_the_machines:0 "向布里亚特付款"
+
+ 
+

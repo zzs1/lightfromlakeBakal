@@ -1,0 +1,82 @@
+﻿l_english:
+ 
+ #decision 决议
+ 
+ change_capital_decision_category:0 "§gChange/Move§! your §YCapital State§!"
+ change_capital_decision_category_desc:0 "You can change or move your Capital State in this decision category by some political power. "
+ change_capital_state_hide:0 "§RHide§! §YMoving Capital§! decisions"
+ change_capital_state_show:0 "§RShow§! §YMoving Capital§! decisions"
+ change_capital_state_on_map:0 "Move our §CCapital§! State to §Y[From.GetName]§! State"
+ 
+ #农业
+ 
+ nongyechanchubianhua_up5:0 "农业点变化增加5"
+ nongyechanchubianhua_up10:0 "农业点变化增加10"
+ nongyechanchubianhua_up25:0 "农业点变化增加25"
+ nongyechanchubianhua_up50:0 "农业点变化增加50"
+ nongyechanchu_up5:0 "农业点变化增加5"
+ nongyechanchu_up10:0 "农业点变化增加10"
+ nongyechanchu_up25:0 "农业点变化增加25"
+ nongyechanchu_up50:0 "农业点变化增加50"
+ nongyechanchu_up100:0 "农业点变化增加100"
+ kuangyechanchu_dayu10:0 "农产点大于10"
+ nuangyechanchu_dayu25:0 "农业点大于25"
+ 
+ #工业
+ 
+ 
+ gongyechanchubianhua_up1:0 "工业点变化增加1"
+ gongyechanchubianhua_up2:0 "工业点变化增加2"
+ gongyechanchubianhua_up5:0 "工业点变化增加5"
+ gongyechanchubianhua_up10:0 "工业点变化增加10"
+ gongyechanchubianhua_up25:0 "工业点变化增加25"
+ gongyechanchubianhua_up50:0 "工业点变化增加50"
+ gongyechanchu_down2:0 "工业点减少2"
+ gongyechanchu_down5:0 "工业点减少5"
+ gongyechanchu_down10:0 "工业点减少10"
+ gongyechanchu_down25:0 "工业点减少25"
+ gongyechanchu_down50:0 "工业点减少50"
+ gongyechanchu_down100:0 "工业点减少100"
+ gongyechanchu_up2:0 "工业点增加2"
+ gongyechanchu_up5:0 "工业点增加5"
+ gongyechanchu_up10:0 "工业点增加10"
+ gongyechanchu_up25:0 "工业点增加25"
+ gongyechanchu_up50:0 "工业点增加50"
+ gongyechanchu_up100:0 "工业点增加100"
+ 
+ #能源
+ 
+ nengyuanchanchu_up100:0 "能源点增加100"
+ nengyuanchanchu_up50:0 "能源点增加50"
+ nengyuanchanchu_up25:0 "能源点增加25"
+ nengyuanchanchu_up10:0 "能源点增加10"
+ nengyuanchanchu_up1:0 "能源点增加1"
+ nengyuanchanchu_dowun100:0 "能源点减少100"
+ nengyuanchanchu_dowun50:0 "能源点减少50"
+ nengyuanchanchu_dowun25:0 "能源点减少25"
+ nengyuanchanchu_dowun10:0 "能源点减少10"
+ nengyuanchanchu_dowun1:0 "能源点减少1"
+ nengyuanchanchubianhua_up1:0 "能源点变化增加1"
+ nengyuanchanchubianhua_up2:0 "能源点变化增加2"
+ nengyuanchanchubianhua_up5:0 "能源点变化增加5"
+ nengyuanchanchubianhua_up10:0 "能源点变化增加10"
+ nengyuanchanchubianhua_up25:0 "能源点变化增加25"
+ 
+ #矿产
+ 
+ kuangyechanchu_dowun100:0 "矿产点减少100"
+ kuangyechanchu_dowun50:0 "矿产点减少50"
+ kuangyechanchu_dowun25:0 "矿产点减少25"
+ kuangyechanchu_dowun10:0 "矿产点减少10"
+ kuangyechanchu_dowun1:0 "矿产点减少1"
+ kuangyechanchubianhua_up1:0 "矿产点变化增加1"
+ kuangyechanchubianhua_up2:0 "矿产点变化增加2"
+ kuangyechanchubianhua_up5:0 "矿产点变化增加5"
+ kuangyechanchubianhua_up10:0 "矿产点变化增加10"
+ kuangyechanchubianhua_up25:0 "矿产点变化增加25"
+
+ chanchu_up1:0 "工厂产出+0.5%"
+ kuangyechanchu_dayu10:0 "矿产点大于10"
+ kuangyechanchu_dayu10:0 "工产点大于10"
+ kuangyechanchu_dayu10:0 "能源点大于10"
+ 
